@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Thùy",
+      "tel": "0123456789",
+      "permission": 1
+    },
+    {
+      "id": 2,
+      "name": "Hoàng Thùy",
+      "tel": "0123456789",
+      "permission": 2
+    },
+    {
+      "id": 3,
+      "name": "Hòa",
+      "tel": "4654645",
+      "permission": 3
+    },
+    {
+      "id": 4,
+      "name": "Quang",
+      "tel": "654642",
+      "permission": 3
+    },
+    {
+      "id": 5,
+      "name": "Nguyễn",
+      "tel": "46546546",
+      "permission": 1
+    }
+  ]
+  

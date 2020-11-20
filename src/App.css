@@ -1,6 +1,6 @@
-.App {
-  text-align: center;
-}
+/* #accordionSidebar {
+  position: fixed;
+} */
 .App-logo {
   height: 200px;
   pointer-events: none;
@@ -22,7 +22,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+label {
+  text-align: left;
+}
 .App-link {
   color: #61dafb;
 }

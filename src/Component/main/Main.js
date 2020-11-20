@@ -2,8 +2,14 @@ import React, { Component } from "react";
 import Menu from "../left/Menu";
 import Topbar from "./Topbar";
 import Modal from "./Modal";
-
+import DieuHuong from "../router/DieuHuong";
 export default class Main extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      tittle: "Tên sản phẩm",
+    };
+  }
   render() {
     return (
       <div>
@@ -11,20 +17,19 @@ export default class Main extends Component {
           {/* Sidebar */}
           <Menu />
           {/* End of Sidebar */}
-
           {/* Content Wrapper */}
-          <div id="content-wrapper" className="d-flex flex-column">
+          <div id="content-wrapper" className="d-flex flex-column ">
             {/* Main Content */}
             <div id="content">
               {/* Topbar */}
               <Topbar />
               {/* End of Topbar */}
-
               {/* Begin Page Content */}
               <div className="container-fluid">
                 {/* Page Heading */}
-                <h1 className="h3 mb-4 text-gray-800">Trang web của Thùy ăn khu chồng Hòa.
-                </h1>
+                <div className="row" style={{ paddingTop: "10px" }}>
+                  <DieuHuong />
+                </div>
               </div>
               {/* /.container-fluid */}
             </div>
@@ -34,7 +39,7 @@ export default class Main extends Component {
             <footer className="sticky-footer bg-white">
               <div className="container my-auto">
                 <div className="copyright text-center my-auto">
-                  <span>Copyright © Your Website 2020</span>
+                  <span>Copyright © ViKing Website 2020</span>
                 </div>
               </div>
             </footer>

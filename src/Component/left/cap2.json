@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "idCha":"1",
+        "Name":"Danh mục",
+        "url":"danhmuc",
+        "icon":"fas fa-fw fa-cog"
+    }
+    , {
+        "id":2,
+        "idCha":"1",
+        "Name":"Cấu hình Mail",
+        "url":"cauhinh",
+        "icon":"fas fa-fw fa-folder"
+    }, {
+        "id":3,
+        "idCha":"1",
+        "Name":"Nhân viên",
+        "url":"nhanvien",
+        "icon":"fas fa-fw fa-folder"
+    },
+    {
+        "id":4,
+        "idCha":"2",
+        "Name":"Dự án",
+        "url":"duan",
+        "icon":"fas fa-fw fa-folder"
+    }, {
+        "id":5,
+        "idCha":"2",
+        "Name":"Mặt bằng",
+        "url":"matbang",
+        "icon":"fas fa-fw fa-folder"
+    }, {
+        "id":6,
+        "idCha":"3",
+        "Name":"Khách hàng",
+        "url":"khachhang",
+        "icon":"fas fa-fw fa-chart-area"
+    }, {
+        "id":7,
+        "idCha":"7",
+        "Name":"Tin mới",
+        "url":"tinmoi",
+        "icon":"fas fa-fw fa-chart-area"
+    }
+]

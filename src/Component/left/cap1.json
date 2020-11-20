@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "Name":"Hệ thống",
+        "url":"hehong",
+        "icon":"fas fa-fw fa-cog"
+    }
+    , {
+        "id":2,
+        "Name":"Dự án",
+        "url":"duan",
+        "icon":"fas fa-fw fa-folder"
+    }, {
+        "id":3,
+        "Name":"Khách hàng",
+        "url":"khachhang",
+        "icon":"fas fa-fw fa-folder"
+    },
+    {
+        "id":4,
+        "Name":"Dịch vụ",
+        "url":"dichvu",
+        "icon":"fas fa-fw fa-folder"
+    }, {
+        "id":5,
+        "Name":"Công nợ",
+        "url":"congno",
+        "icon":"fas fa-fw fa-folder"
+    }, {
+        "id":6,
+        "Name":"Báo cáo",
+        "url":"baocao",
+        "icon":"fas fa-fw fa-chart-area"
+    }, {
+        "id":7,
+        "Name":"Tin tức",
+        "url":"tintuc",
+        "icon":"fas fa-fw fa-chart-area"
+    }
+]

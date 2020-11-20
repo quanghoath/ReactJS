@@ -1,14 +1,14 @@
-import React,{Component} from 'react';
-import logo from './logo.svg';
-import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Menu from './Component/left/Menu';
-import Main from './Component/main/Main';
-
+import React from "react";
+import "./App.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Main from "./Component/main/Main";
+import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Main/>
+      <Router>
+        <Main />
+      </Router>
     </div>
   );
 }
